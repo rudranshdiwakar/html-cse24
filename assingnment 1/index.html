@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Semantic vs Non-Semantic Tags</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      color: #333;
+      padding: 20px;
+    }
+
+    .container {
+      background: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      max-width: 800px;
+      margin: auto;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+
+    h1 {
+      color: #005f99;
+    }
+
+    .section {
+      margin-bottom: 30px;
+    }
+
+    .non-semantic, .semantic {
+      padding: 15px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      background-color: #fdfdfd;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 10px;
+    }
+
+    th, td {
+      padding: 12px;
+      border: 1px solid #ccc;
+      text-align: left;
+    }
+
+    th {
+      background-color: #eaeaea;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>HTML Semantic vs Non-Semantic Tags</h1>
+
+    <div class="section non-semantic">
+      <h2>Non-Semantic Tags</h2>
+      <div>
+        <p>This content is inside a <code>&lt;div&gt;</code> tag.</p>
+      </div>
+      <span>
+        <p>This content is inside a <code>&lt;span&gt;</code> tag.</p>
+      </span>
+    </div>
+
+    <div class="section semantic">
+      <h2>Semantic Tag Example</h2>
+      <table>
+        <tr>
+          <th>Tag</th>
+          <th>Description</th>
+        </tr>
+        <tr>
+          <td>&lt;table&gt;</td>
+          <td>This is a semantic tag used to represent tabular data.</td>
+        </tr>
+      </table>
+    </div>
+  </div>
+</body>
+</html>
